@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1567467733 source:c:\users\alumno\desktop\clase4\tp_laboratorio_1\trabajo practico 1\biblioteca.c
+	<stdio.h>
+	"biblioteca.h"
+
+1567467733 c:\users\alumno\desktop\clase4\tp_laboratorio_1\trabajo practico 1\biblioteca.h
+
+1567467733 source:c:\users\alumno\desktop\clase4\tp_laboratorio_1\trabajo practico 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"biblioteca.h"
+

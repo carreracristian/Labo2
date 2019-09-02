@@ -23,15 +23,15 @@ int getMax(int a, int b, int c){
 
     int numMax;
 
-    if(a>b && a>c){
+    if(a>=b && a>c){
 
         numMax=a;
     }
-    if(b>a && b>c){
+    if(b>=a && b>c){
 
         numMax=b;
     }
-    if(c>b && c>a){
+    if(c>=b && c>a){
 
         numMax=c;
     }
