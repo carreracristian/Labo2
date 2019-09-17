@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1568672379 source:c:\users\alumno\desktop\matriznombres\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1568673700 source:c:\users\alumno\desktop\clase8\ejercicios1g\ejercicios1g\matriznombres\main.c
+	<stdio.h>
+	<stdlib.h>
+
