@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1568819652 source:c:\users\alumno\desktop\abm\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
+1568819652 source:c:\users\usuario\desktop\practica programacion\2do-cuatri-programacion-laboratorio\abm\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
