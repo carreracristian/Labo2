@@ -1,0 +1,202 @@
+# depslib dependency file v1.0
+1557942144 source:d:\documents\programacion\peliculasabm\peliculasparcial\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
+1557951131 d:\documents\programacion\peliculasabm\peliculasparcial\validaciones.h
+
+1557951864 source:d:\documents\programacion\peliculasabm\peliculasparcial\actor.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+	"Actor.h"
+	"Pelicula.h"
+
+1557951365 d:\documents\programacion\peliculasabm\peliculasparcial\actor.h
+
+1557868790 d:\documents\programacion\peliculasabm\peliculasparcial\peliculas.h
+
+1557962748 source:d:\documents\programacion\peliculasabm\peliculasparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Pelicula.h"
+	"genero.h"
+	"Actor.h"
+
+1557951864 source:d:\documents\programacion\peliculasabm\peliculasparcial\genero.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+	"genero.h"
+	"Pelicula.h"
+
+1557888297 d:\documents\programacion\peliculasabm\peliculasparcial\genero.h
+
+1557715852 source:d:\documents\programacion\peliculasabm\peliculasparcial\peliculas.c
+	"Peliculas.h"
+	"Actor.h"
+	"validaciones.h"
+	"genero.h"
+	<stdio.h>
+
+1557959583 d:\documents\programacion\peliculasabm\peliculasparcial\pelicula.h
+	"Actor.h"
+	"genero.h"
+
+1557959551 source:d:\documents\programacion\peliculasabm\peliculasparcial\pelicula.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+	"Pelicula.h"
+	"Actor.h"
+	"genero.h"
+
+1557961543 source:d:\documents\programacion\peliculasabm\peliculasparcial\filtros.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+	"Filtros.h"
+	"Pelicula.h"
+	"Actor.h"
+	"genero.h"
+
+1557961883 d:\documents\programacion\peliculasabm\peliculasparcial\filtros.h
+	"Actor.h"
+	"genero.h"
+	"Pelicula.h"
+
+1557963523 source:c:\users\alumno\downloads\privados-master\peliculasabm\peliculasparcial\actor.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+	"Actor.h"
+	"Pelicula.h"
+
+1557963523 c:\users\alumno\downloads\privados-master\peliculasabm\peliculasparcial\validaciones.h
+
+1557963523 c:\users\alumno\downloads\privados-master\peliculasabm\peliculasparcial\actor.h
+
+1557963523 c:\users\alumno\downloads\privados-master\peliculasabm\peliculasparcial\pelicula.h
+	"Actor.h"
+	"genero.h"
+
+1557963523 c:\users\alumno\downloads\privados-master\peliculasabm\peliculasparcial\genero.h
+
+1558016430 source:c:\users\alumno\downloads\privados-master\peliculasabm\peliculasparcial\filtros.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+	"Filtros.h"
+	"Pelicula.h"
+	"Actor.h"
+	"genero.h"
+
+1558016430 c:\users\alumno\downloads\privados-master\peliculasabm\peliculasparcial\filtros.h
+	"Actor.h"
+	"genero.h"
+	"Pelicula.h"
+
+1558011689 source:c:\users\alumno\downloads\privados-master\peliculasabm\peliculasparcial\genero.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+	"genero.h"
+	"Pelicula.h"
+
+1558016594 source:c:\users\alumno\downloads\privados-master\peliculasabm\peliculasparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Pelicula.h"
+	"genero.h"
+	"Actor.h"
+
+1558014967 source:c:\users\alumno\downloads\privados-master\peliculasabm\peliculasparcial\pelicula.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+	"Pelicula.h"
+	"Actor.h"
+	"genero.h"
+
+1557963523 source:c:\users\alumno\downloads\privados-master\peliculasabm\peliculasparcial\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
+1569940156 source:c:\users\usuario\desktop\labo2\labo2\peliculasparcial\actor.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+	"Actor.h"
+	"Pelicula.h"
+
+1569940156 c:\users\usuario\desktop\labo2\labo2\peliculasparcial\validaciones.h
+
+1569940156 c:\users\usuario\desktop\labo2\labo2\peliculasparcial\actor.h
+
+1569940156 c:\users\usuario\desktop\labo2\labo2\peliculasparcial\pelicula.h
+	"Actor.h"
+	"genero.h"
+
+1569940156 c:\users\usuario\desktop\labo2\labo2\peliculasparcial\genero.h
+
+1569940156 source:c:\users\usuario\desktop\labo2\labo2\peliculasparcial\filtros.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+	"Filtros.h"
+	"Pelicula.h"
+	"Actor.h"
+	"genero.h"
+
+1569940156 c:\users\usuario\desktop\labo2\labo2\peliculasparcial\filtros.h
+	"Actor.h"
+	"genero.h"
+	"Pelicula.h"
+
+1569940156 source:c:\users\usuario\desktop\labo2\labo2\peliculasparcial\genero.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+	"genero.h"
+	"Pelicula.h"
+
+1569940156 source:c:\users\usuario\desktop\labo2\labo2\peliculasparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Pelicula.h"
+	"genero.h"
+	"Actor.h"
+
+1569940156 source:c:\users\usuario\desktop\labo2\labo2\peliculasparcial\pelicula.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+	"Pelicula.h"
+	"Actor.h"
+	"genero.h"
+
+1569940156 source:c:\users\usuario\desktop\labo2\labo2\peliculasparcial\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
