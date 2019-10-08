@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1570495182 source:d:\parcial carrera cristian\carreracristian\alquileres.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<conio.h>
+	"alquileres.h"
+
+1570492732 d:\parcial carrera cristian\carreracristian\alquileres.h
+	"juegos.h"
+	"cliente.h"
+	"alquileres.h"
+
+1570496219 d:\parcial carrera cristian\carreracristian\juegos.h
+
+1570486665 d:\parcial carrera cristian\carreracristian\cliente.h
+	"categoria.h"
+
+1570492279 d:\parcial carrera cristian\carreracristian\categoria.h
+
+1570495252 source:d:\parcial carrera cristian\carreracristian\categoria.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<conio.h>
+	"categoria.h"
+	"juegos.h"
+
+1570495384 source:d:\parcial carrera cristian\carreracristian\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<conio.h>
+	"cliente.h"
+
+1570495390 source:d:\parcial carrera cristian\carreracristian\imputandvalidate.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1570496208 source:d:\parcial carrera cristian\carreracristian\juegos.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<conio.h>
+	"juegos.h"
+	"categoria.h"
+
+1570496473 source:d:\parcial carrera cristian\carreracristian\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<conio.h>
+	"categoria.h"
+	"cliente.h"
+	"alquileres.h"
+	"juegos.h"
+
