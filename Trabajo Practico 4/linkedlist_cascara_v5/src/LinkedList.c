@@ -3,6 +3,9 @@
 #include <string.h>
 #include "../inc/LinkedList.h"
 
+/*Crea y retorna un nuevo LinkedList. Es el constructor,
+ya que en él daremos valores iniciales a
+las variables y asignaremos las funciones a sus punteros.*/
 LinkedList* ll_newLinkedList(void)
 {
     LinkedList* this;
@@ -14,7 +17,9 @@ LinkedList* ll_newLinkedList(void)
     }
     return this;
 }
-
+/*Retorna el tamaño del LinkedList. Verificando que el puntero this sea distinto de NULL. Si la
+verificación falla la función retorna (-1) y si tiene éxito retorna la longitud del array.
+*/
 int ll_len(LinkedList* this)
 {
     int returnAux= -1;
@@ -24,7 +29,9 @@ int ll_len(LinkedList* this)
 
     return returnAux;
 }
-
+/*Retorna un puntero al nodo que se encuentra en el índice especificado. Verificando que el
+puntero this sea distinto de NULL y que index sea positivo e inferior al tamaño del array. Si la
+verificación falla la función retorna (NULL) y si tiene éxito retorna el puntero al nodo.*/
 static Node* getNode(LinkedList* this, int nodeIndex)
 {
     Node* pNode = NULL;
@@ -51,7 +58,10 @@ Node* test_getNode(LinkedList* this, int nodeIndex)
 {
     return getNode(this, nodeIndex);
 }
-
+/*Agrega un nodo en la posición indexNode. Verificando que el puntero this sea distinto de NULL
+y que index sea positivo e inferior al tamaño del array. Si la verificación falla la función retorna
+(-1) y si tiene éxito (0).
+*/
 static int addNode(LinkedList* this, int nodeIndex,void* pElement)
 {
     int returnAux= -1;
@@ -90,7 +100,8 @@ int test_addNode(LinkedList* this, int nodeIndex,void* pElement)
 {
     return addNode(this,nodeIndex,pElement);
 }
-
+/*Agrega un elemento al final de LinkedList. Verificando que el puntero this sea distinto de NULL.
+Si la verificación falla la función retorna (-1) y si tiene éxito (0).*/
 int ll_add(LinkedList* this, void* pElement)
 {
     int returnAux= -1;
@@ -100,7 +111,10 @@ int ll_add(LinkedList* this, void* pElement)
 
     return returnAux;
 }
-
+/*Retorna un puntero al elemento que se encuentra en el índice especificado. Verificando que el
+puntero this sea distinto de NULL y que index sea positivo e inferior al tamaño del array. Si la
+verificación falla la función retorna (NULL) y si tiene éxito retorna el elemento.
+*/
 void* ll_get(LinkedList* this, int index)
 {
     void* returnAux = NULL;
@@ -118,7 +132,10 @@ void* ll_get(LinkedList* this, int index)
 
     return returnAux;
 }
-
+/*Inserta un elemento en el LinkedList, en el índice especificado. Verificando que el puntero this
+sea distinto de NULL y que index sea positivo e inferior al tamaño del array. Si la verificación
+falla la función retorna (-1) y si tiene éxito (0).
+*/
 int ll_set(LinkedList* this, int index,void* pElement)
 {
     int returnAux = -1;
@@ -139,7 +156,9 @@ int ll_set(LinkedList* this, int index,void* pElement)
 
     return returnAux;
 }
-
+/*Elimina un elemento del LinkedList, en el índice especificado. Verificando que el puntero this
+sea distinto de NULL y que index sea positivo e inferior al tamaño del array. Si la verificación
+falla la función retorna (-1) y si tiene éxito (0).*/
 int ll_remove(LinkedList* this,int index)
 {
     int returnAux= -1;
@@ -180,7 +199,9 @@ int ll_remove(LinkedList* this,int index)
 
     return returnAux;
 }
-
+/*Borra todos los elementos de LinkedList. Verificando que el puntero this sea distinto de NULL.
+Si la verificación falla la función retorna (-1) y si tiene éxito (0).
+*/
 int ll_clear(LinkedList* this)
 {
     int returnAux = -1;
@@ -195,7 +216,9 @@ int ll_clear(LinkedList* this)
 
     return returnAux;
 }
-
+/*Elimina el LinkedList . Verificando que el puntero this sea distinto de NULL. Si la verificación
+falla la función retorna (-1), si esta vacío (1) y si contiene elementos (0).
+*/
 int ll_deleteLinkedList(LinkedList* this)
 {
     int returnAux = -1;
@@ -213,7 +236,10 @@ int ll_deleteLinkedList(LinkedList* this)
 
     return returnAux;
 }
-
+/*Retorna el índice de la primera aparición de un elemento (element) en el LinkedList.
+Verificando que el puntero this sea distinto de NULL. Si la verificación falla o no encuentra el
+elemento la función retorna (-1) y si encuentra el elemento retorna su índice.
+*/
 int ll_indexOf(LinkedList* this, void* pElement)
 {
     int returnAux = -1;
@@ -236,7 +262,9 @@ int ll_indexOf(LinkedList* this, void* pElement)
 
     return returnAux;
 }
-
+/*Retorna cero si contiene elementos y uno si no los tiene. Verificando que el puntero this sea
+distinto de NULL. Si la verificación falla la función retorna (-1), si esta vacío (1) y si contiene
+elementos (0).*/
 int ll_isEmpty(LinkedList* this)
 {
     int returnAux= -1;
@@ -251,7 +279,9 @@ int ll_isEmpty(LinkedList* this)
 
     return returnAux;
 }
-
+/*Desplaza los elementos e inserta en la posición index. Verificando que el puntero this sea
+distinto de NULL y que index sea positivo e inferior al tamaño del array. Si la verificación falla
+la función retorna (-1) y si tiene éxito (0).*/
 int ll_push(LinkedList* this, int index, void* pElement)
 {
     int returnAux= -1;
@@ -266,7 +296,11 @@ int ll_push(LinkedList* this, int index, void* pElement)
 
     return returnAux;
 }
-
+/*Retorna un puntero al elemento que se encuentra en el índice especificado y luego lo elimina
+de la lista. Verificando que el puntero this sea distinto de NULL y que index sea positivo e
+inferior al tamaño del array. Si la verificación falla la función retorna (NULL) y si tiene éxito
+retorna el elemento.
+*/
 void* ll_pop(LinkedList* this,int index)
 {
     void* returnAux = NULL;
@@ -284,7 +318,10 @@ void* ll_pop(LinkedList* this,int index)
 
     return returnAux;
 }
-
+/*Comprueba si existe el elemento que se le pasa como parámetro. Verificando que tanto el
+puntero this sea distintos de NULL. Si la verificación falla la función retorna (-1) , si encuentra
+el elemento (1) y si no lo encuentra (0).
+*/
 int ll_contains(LinkedList* this, void* pElement)
 {
     int returnAux= -1;
@@ -299,7 +336,11 @@ int ll_contains(LinkedList* this, void* pElement)
 
     return returnAux;
 }
-
+/*Comprueba si los elementos pasados son contenidos por el LinkedList. Verificando que tanto el
+puntero this como pList2 sean distintos de NULL. Si la verificación falla o no encuentra el
+elemento la función retorna (-1), si las listas difieren (0) y si ambas listas son iguales retorna
+(1).
+*/
 int ll_containsAll(LinkedList* this, LinkedList* this2)
 {
     int returnAux = -1;
@@ -327,7 +368,11 @@ int ll_containsAll(LinkedList* this, LinkedList* this2)
 
     return returnAux;
 }
-
+/*Retorna un nuevo LinkedList con el subconjunto de elementos. Verificando que el puntero this
+sea distinto de NULL y que tanto el indice 'from' como 'to' sean positivos e inferiores al tamaño
+del array. Si la verificación falla la función retorna (NULL) y si tiene éxito retorna el nuevo
+array.
+*/
 LinkedList* ll_subList(LinkedList* this,int from,int to)
 {
     LinkedList* cloneArray = NULL;
@@ -355,7 +400,10 @@ LinkedList* ll_subList(LinkedList* this,int from,int to)
 
     return cloneArray;
 }
-
+/*Retorna un nuevo LinkedList copia del LinkedList original. Verificando que el puntero this sea
+distinto de NULL. Si la verificación falla la función retorna (NULL) y si tiene éxito retorna el
+nuevo array.
+*/
 LinkedList* ll_clone(LinkedList* this)
 {
     LinkedList* cloneArray = NULL;
@@ -365,7 +413,10 @@ LinkedList* ll_clone(LinkedList* this)
 
     return cloneArray;
 }
-
+/*Ordena los elementos del array recibiendo como parámetro la función que sera la encargada
+de determinar que elemento es mas grande que otro y si se debe ordenar de manera
+ascendente o descendente. Verificando que tanto el puntero this como el puntero a la funcion
+pFunc sean distintos de NULL. Si la verificación falla (-1) caso contrario retorna (1).*/
 int ll_sort(LinkedList* this, int (*pFunc)(void*,void*), int order)
 {
     int returnAux= -1;
