@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1561589074 source:c:\users\screw\desktop\2019_mockup_spl\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561589074 c:\users\screw\desktop\2019_mockup_spl\linkedlist.h
+
+1561591361 source:c:\users\screw\desktop\2019_mockup_spl\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"employee.h"
+	"parser.h"
+
+1561591499 source:c:\users\screw\desktop\2019_mockup_spl\parser.c
+	<stdlib.h>
+	<stdio.h>
+	"parser.h"
+	"LinkedList.h"
+	"employee.h"
+
+1561591177 c:\users\screw\desktop\2019_mockup_spl\parser.h
+
+1561590960 source:c:\users\screw\desktop\2019_mockup_spl\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"employee.h"
+
+1561590960 c:\users\screw\desktop\2019_mockup_spl\employee.h
+
+1561632952 source:c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\2do parcial\2019_mockup_spl\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"employee.h"
+
+1561632952 c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\2do parcial\2019_mockup_spl\employee.h
+
+1561632952 source:c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\2do parcial\2019_mockup_spl\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561632952 c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\2do parcial\2019_mockup_spl\linkedlist.h
+
+1561632952 source:c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\2do parcial\2019_mockup_spl\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"employee.h"
+	"parser.h"
+
+1561632952 c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\2do parcial\2019_mockup_spl\parser.h
+
+1561632952 source:c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\2do parcial\2019_mockup_spl\parser.c
+	<stdlib.h>
+	<stdio.h>
+	"parser.h"
+	"LinkedList.h"
+	"employee.h"
+

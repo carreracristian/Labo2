@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1562771195 source:c:\users\alumno\desktop\nueva carpeta\recu_2doparcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Movies.h"
+	"Parser.h"
+
+1562771219 c:\users\alumno\desktop\nueva carpeta\recu_2doparcial\linkedlist.h
+
+1562771281 c:\users\alumno\desktop\nueva carpeta\recu_2doparcial\movies.h
+
+1562762330 c:\users\alumno\desktop\nueva carpeta\recu_2doparcial\parser.h
+
+1562771242 source:c:\users\alumno\desktop\nueva carpeta\recu_2doparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Movies.h"
+	"Parser.h"
+
+1562771485 source:c:\users\alumno\desktop\nueva carpeta\recu_2doparcial\movies.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Movies.h"
+	"Parser.h"
+
+1562762743 source:c:\users\alumno\desktop\nueva carpeta\recu_2doparcial\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Movies.h"
+	"Parser.h"
+
+1563212523 source:c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\recu_2doparcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Movies.h"
+	"Parser.h"
+	"Input.h"
+
+1563207046 c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\recu_2doparcial\linkedlist.h
+
+1563204110 c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\recu_2doparcial\movies.h
+
+1563116440 c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\recu_2doparcial\parser.h
+
+1563295872 source:c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\recu_2doparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Movies.h"
+	"Parser.h"
+	"Input.h"
+
+1563296524 source:c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\recu_2doparcial\movies.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Movies.h"
+	"Parser.h"
+	"Input.h"
+
+1563116402 source:c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\recu_2doparcial\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Movies.h"
+	"Parser.h"
+	"Input.h"
+
+1563211346 source:c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\recu_2doparcial\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Movies.h"
+	"Parser.h"
+	"Input.h"
+
+1563203649 c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\recu_2doparcial\input.h
+

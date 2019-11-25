@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1562711337 source:c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\parcial2_lab (octavio)\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Parser.h"
+
+1562002453 c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\parcial2_lab (octavio)\linkedlist.h
+
+1562711350 c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\parcial2_lab (octavio)\employee.h
+
+1562010915 c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\parcial2_lab (octavio)\parser.h
+
+1562076925 source:c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\parcial2_lab (octavio)\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Parser.h"
+
+1562711380 source:c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\parcial2_lab (octavio)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Parser.h"
+
+1562110317 source:c:\users\alejo\desktop\programación (utn)\04. laboratorio i - programación i\parcial2_lab (octavio)\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Parser.h"
+
+1573590311 source:c:\users\usuario\desktop\alejo\2do_parcial_lab\parcial2_lab (octavio)\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Parser.h"
+
+1573590311 c:\users\usuario\desktop\alejo\2do_parcial_lab\parcial2_lab (octavio)\linkedlist.h
+
+1573590311 c:\users\usuario\desktop\alejo\2do_parcial_lab\parcial2_lab (octavio)\employee.h
+
+1573590311 c:\users\usuario\desktop\alejo\2do_parcial_lab\parcial2_lab (octavio)\parser.h
+
+1573590311 source:c:\users\usuario\desktop\alejo\2do_parcial_lab\parcial2_lab (octavio)\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Parser.h"
+
+1573590311 source:c:\users\usuario\desktop\alejo\2do_parcial_lab\parcial2_lab (octavio)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Parser.h"
+
+1573590311 source:c:\users\usuario\desktop\alejo\2do_parcial_lab\parcial2_lab (octavio)\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Parser.h"
+
